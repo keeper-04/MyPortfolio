@@ -9,21 +9,19 @@
     font-family: 'Poppins', sans-serif;
 }
 
-:root{
-    --bg-color: #1f242d;
-    --second-bg-color: #323946;
-    --text-color: #fff;
-    --main-color: #0ef;
+:root {
+  --bg-color: #f2f2fc;
+  --second-bg-color: #ffffff;
+  --text-color: #2e2e2e;
+  --main-color: #6c63ff;
 }
-
-html{
-    font-size: 30%;
-    overflow-x: hidden;
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
 }
-
-body{
-    background: var(--bg-color);
-    color: var(--text-color);
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
 }
 
 section{
