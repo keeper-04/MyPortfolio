@@ -1,8 +1,8 @@
 // Handle download button click
 document.getElementById('downloadBtn').addEventListener('click', function () {
     const link = document.createElement('a');
-    link.href = 'images/Marios Nikolaou CV.pdf';
-    link.download = 'Marios Nikolaou CV.pdf';
+    link.href = 'images/Marios_Nikolaou_CV.pdf';
+    link.download = 'Marios_Nikolaou_CV.pdf';
     link.style.display = 'none';
     document.body.appendChild(link);
     link.click();
